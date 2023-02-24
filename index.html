@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Sticky Menubar</title>
+</head>
+
+<body>
+
+    <img id="logo" src="/logo-removebg-preview.png" alt="">
+
+    <nav id="menubar">
+        <li>About</li>
+        <li>Varieties</li>
+        <li>Feed</li>
+    </nav>
+
+    <h1>About</h1>
+
+    <img src="/neo.jpg" alt="">
+
+    <p>
+        Neon tetra fish (Paracheirodon innesi) are a popular freshwater fish species that are native to the Amazon basin
+        in South America. They are small and peaceful, making them an excellent choice for community
+        aquariums.Appearance:
+        Neon tetras are known for their vibrant colors, which include a bright blue stripe that runs horizontally along
+        their body, and a bright red stripe that runs just below it. The rest of their body is silver in color. They are
+        relatively small, reaching a maximum size of around 1.5 inches (4 cm) in length.
+
+
+
+
+        Diet:
+        Neon tetras are omnivores, meaning they eat both plant and animal matter. In the wild, they feed on small
+        insects, crustaceans, and plant matter. In captivity, they can be fed a variety of foods, including flakes,
+        pellets, frozen or live foods such as brine shrimp, daphnia, and bloodworms.
+
+        Behavior:
+        Neon tetras are a peaceful and social species that are best kept in groups of at least six individuals. They are
+        active swimmers, but also enjoy hiding in plants and other structures. They are generally compatible with other
+        peaceful community fish, but should be kept away from larger or more aggressive species that may view them as
+        food.
+
+        Breeding:
+        Breeding neon tetras in captivity can be challenging, but it is possible with the right conditions. A separate
+        breeding tank with soft, acidic water, and a temperature range of 75 to 82 degrees Fahrenheit (24 to 28 degrees
+        Celsius) is required. Spawning usually occurs in the early morning, and the eggs are adhesive and will stick to
+        plants or other surfaces. The parents should be removed after spawning to prevent them from eating the eggs or
+        fry.
+
+        In conclusion, neon tetras are a popular and beautiful species of freshwater fish that are relatively easy to
+        care for. They make a great addition to a community aquarium and are a great choice for beginner aquarists. With
+        proper care and attention, these colorful fish can live for several years in captivity.
+    </p>
+
+
+    <script>
+        window.addEventListener('scroll',function(){
+
+            let navbar = document.getElementById("menubar");
+
+            if(window.pageYOffset >= 147){
+                navbar.classList.add("sticky");
+            }
+            else{
+                navbar.classList.remove("sticky");
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+        window.addEventListener('scroll',function(){
+
+            let navbar = document.getElementById("menubar");
+
+            if(window.pageYOffset >= 147){
+                navbar.classList.add("sticky")
+            }
+            else{
+                navbar.classList.remove("sticky")
+            }
+        })
+    </script> -->
+
+</body>
+
+</html>
